@@ -57,7 +57,7 @@ export default function Home() {
         <CircularProgress style={{ marginTop: 200 }} />
       ) : (
         <>
-          <b style={{ fontSize: 50 }}>{"Username: " + label}</b>
+          <b style={{ fontSize: 50 }}>{"Status: " + label}</b>
 
           <WebCam
             audio={false}
