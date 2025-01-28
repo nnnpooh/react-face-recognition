@@ -22,7 +22,7 @@ export default function Home() {
   const videoConstraints = {
     width: 1280,
     height: 720,
-    facingMode: "user",
+    facingMode: { exact: "environment" },
   };
 
   //We're using asynchronous useEffect so we can wait for our classifier to be initialized before we attempt to use it
